@@ -4,6 +4,9 @@
 
 Console.WriteLine("Введите число n");
     int n = Convert.ToInt32(Console.ReadLine());
-    for (int i=1; n>=1; i++);
-    if (n%2==0) 
-    Console.Write("Число =");
+    
+    for (int i = 2; i < n; i++)
+    
+    if (i%2==0) 
+    
+    {Console.WriteLine(i);}
