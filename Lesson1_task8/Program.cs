@@ -2,5 +2,8 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Введите число");
-    int a = Convert.ToInt32(Console.ReadLine())
+Console.WriteLine("Введите число n");
+    int n = Convert.ToInt32(Console.ReadLine());
+    for (int i=1; n>=1; i++);
+    if (n%2==0) 
+    Console.Write("Число =");
