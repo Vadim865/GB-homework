@@ -8,6 +8,11 @@ Console.WriteLine("Введите трёхзначное число ");
 string str = Console.ReadLine();
 
 char[]c = str.ToCharArray();
-
-Console.WriteLine("третья цифра" +c[2]);
-
+if (str.Length>2)
+{
+    Console.WriteLine(" третья цифра " + c[2]);
+}
+else
+{ 
+    Console.WriteLine(" третьей цифры нет ");
+    }
