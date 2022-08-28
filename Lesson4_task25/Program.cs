@@ -3,4 +3,14 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-int raising number
+
+Console.WriteLine("Введите натуральное числа A и B");
+Console.Write("Введите число A: ");
+int A = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите число B: ");
+int B = Convert.ToInt32(Console.ReadLine());
+
+double raising = Math.Pow(A, B);
+      
+Console.WriteLine($"число A в натуральную степень B {raising}");
