@@ -8,7 +8,7 @@ int s = 5;
 int [] a = new int [s];
 int chetSum = 0;
 
-Random random = new Random (5);
+Random random = new Random ();
 
 for (int i=0; i<s; i++)
 {
