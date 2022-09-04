@@ -4,7 +4,7 @@
 // [345, 897, 568, 234] -> 2
 
 
-int s = 5;
+int s = 4;
 int [] a = new int [s];
 int chetSum = 0;
 
@@ -15,10 +15,10 @@ for (int i=0; i<s; i++)
 Console.WriteLine(a[i] = random.Next(100,999));
     if (a[i] % 2 == 0)
 
-chetSum += a[i];
+chetSum ++;
 }
 
  
 {
- Console.Write("Сумма чётных чисел в массиве: {0}", chetSum);
+ Console.Write("Количество чётных чисел в массиве: {0}", chetSum);
     }
