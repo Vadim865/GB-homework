@@ -6,7 +6,6 @@
 // [1, 2, 3, 6, 2] -> 0
 // [10, 11, 12, 13, 14] -> 5
 
-
 var n = 123;
 var a = new int[n];
 var r = new Random();
