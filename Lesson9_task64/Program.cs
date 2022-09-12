@@ -3,26 +3,21 @@
 // M = 4; N = 8. -> ""4, 6, 7, 8""
 
 
-using System;
-					
-public class Program
+int m = InputNumbers("Введите m: ");
+int n = InputNumbers("Введите n: ");
+
+PrintNumber(m, n);
+
+void PrintNumber(int m, int n)
 {
-	public static void Main()
-	{
-		
-        
-		
+  if (m > n) return;
+  PrintNumber(n, m + 1);
+  Console.Write(m + ", ");
+}
 
-        int m = Convert.ToInt32(Console.ReadLine());
-        int n = Convert.ToInt32(Console.ReadLine());
-        int[,] array = new int[m,n];
-        int nat array = 0
-
-        for (int i = 0; i <n; i++)
-		   if (m > n);
-           (m + 1);
-         Console.Write(m + ", ");
-		
-		
-    }
+int InputNumbers(string input) 
+{
+  Console.Write(input);
+  int output = Convert.ToInt32(Console.ReadLine());
+  return output;
 }

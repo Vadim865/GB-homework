@@ -6,4 +6,12 @@
 // [1, 2, 3, 6, 2] -> 0
 // [10, 11, 12, 13, 14] -> 5
 
-,
+
+var n = 123;
+var a = new int[n];
+var r = new Random();
+var count = 0;
+for(var i=0;i<n;i++){
+    a[i] = r.Next(123);
+    if(a[i]>10 && a[i]<99) count++;}
+Console.WriteLine("Count {0}", count);
